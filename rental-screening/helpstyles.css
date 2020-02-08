@@ -1,0 +1,138 @@
+* {box-sizing: border-box}
+
+/* hero header */
+
+.help-hero-header {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding: 120px 20px 20px 20px;
+  margin: 0px 15px 15px 15px;
+}
+/*
+.help-hero-header-text {
+  font-family: "Intro", "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  color: white;
+  line-height: 56px;
+  font-weight: 300;
+  overflow-wrap: break-word;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.5)
+}
+*/
+.help-hero-paragraph-text {
+  font-family: Intro, "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  overflow-wrap: break-word;
+}
+
+/* Search Bar */
+
+#search-container {
+  display: block;
+  position: relative;
+}
+
+#search-container form {
+  border: none;
+}
+
+#search-container input[type=text] {
+  width: 45%;
+  height: 55px;
+  line-height: 30px;
+  padding-right: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  -webkit-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+  background-image: url('pictures/search.png');
+  background-size: 31px;
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-top: auto;
+  padding-right: auto;
+  padding-bottom: auto;
+  padding-left: 40px;
+}
+
+#search-container input[type=text]:focus {
+  width: 70%;
+}
+/*
+.help-hero-header button {
+  position: absolute;
+  right: 0;
+  height: 50px;
+  width: 60px;
+  padding: 5px;
+  margin: 10px 140px 0px 0px;
+  background: #ddd;
+  font-size: 30px;
+  background: #fff;
+  color: #1e2928;
+  border: none;
+  cursor: pointer;
+}
+*/
+/* Popular Questions */
+
+#popular-questions {
+  display: block;
+  margin: 50px 0px 0px 0px;
+}
+
+#popular-questions-header {
+  text-align: center;
+}
+
+#FAQ {
+  text-align: center;
+  width: 95%;
+}
+
+#FAQ li {
+  list-style-type: none;
+  line-height: 2;
+  text-align: center;
+}
+
+/* Answers For */
+
+#answers-for {
+  display: block;
+  padding: 30px 0px 100px 0px;
+}
+
+#answers-for-header {
+  display: block;
+  text-align: center;
+}
+
+#applicants-landlords-help {
+  display: block;
+  text-align: center;
+}
+
+#applicants-help {
+  display: inline-block;
+  padding: 10px 50px;
+}
+
+#applicants-help img {
+  width: 150px;
+  height: 150px;
+}
+
+#landlords-help {
+  display: inline-block;
+  padding: 10px 50px;
+}
+
+#landlords-help img {
+  width: 150px;
+  height: 150px;
+}

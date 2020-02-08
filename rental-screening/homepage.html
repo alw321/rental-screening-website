@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rental Screening</title>
+    <meta name="viewport" content="width=device-width", initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="homepagestyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+
+<!-- Navigation -->
+
+<div class="topnav" id="topnav-id">
+  <a class="logo" href="homepage.html">
+    <img alt="rental  screening logo" src="pictures/lightning-bolt-light-blue.png">
+  </a>
+  <div class="middle-topnav" id="middle-topnav">
+    <a href="credit-checks.html">Credit Checks</a>
+    <a href="background-checks.html">Background Checks</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="help.html">Help</a>
+  </div>
+  <div class="two-nav-buttons">
+    <button class="get-started-button" onclick="document.getElementById('get-started-modal').style.display='block'">Get Started</button>
+    <button class="loginbutton" onclick="document.getElementById('id01').style.display='block'">Login</button>
+  </div>
+  <a href="javascript:void(0);" class="hamburger-icon" onclick="openNav()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- Overlay -->
+
+<div id="overlay-id" class="overlay">
+  <a href="javascript:void(0)" class="mobile-close" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="credit-checks.html">Credit Checks</a>
+    <a href="background-checks.html">Background Checks</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="help.html">Help</a>
+    <a href="renter.html">Renter</a>
+    <a href="landlord.html">Landlord</a>
+  </div>
+</div>
+
+<!-- Hero section -->
+
+<section id="homepage-hero-section">
+  <div id="homepage-hero-image">
+      <div class="homepage-header-text">
+        <div class="homepage-title-text"><h1>Bolt Rental Screening</h1></div>
+        <div id="homepage-hero-p-text"><p>Credit and Background Screening<br>at the speed of light.</p></div>
+        <div id="homepage-hero-header-text"><h2>I'm a:<h2></div>
+      </div>
+      <div class="two-buttons">
+        <a href="renter.html">Renter</a>
+        <a href="landlord.html">Landlord</a>
+      </div>
+  </div>
+</section>
+
+<!-- 3 Steps -->
+
+<section class="steps-section">
+  <div class="steps-header">
+    <h2>Easy as 1, 2, 3</h2>
+  </div>
+  <div id="steps">
+    <div id="steps-group">
+      <div class="circled-number">
+        <span>1</span>
+      </div>
+      <div class="steps-description">
+        <h3>Email Request</h3>
+        <p>Request is emailed to the applicant</p>
+      </div>
+    </div>
+    <div id="steps-group">
+      <div class="circled-number">
+        <span>2</span>
+      </div>
+      <div class="steps-description">
+        <h3>Enter Info</h3>
+        <p>Applicant enters their info</p>
+      </div>
+    </div>
+    <div id="steps-group">
+      <div class="circled-number">
+        <span>3</span>
+      </div>
+      <div class="steps-description">
+        <h3>Reports Delivered</h3>
+        <p>Reports are delivered!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+
+  <footer class="footer clearfix">
+    <div id="footer-border">
+      <div id="footer-logo-container">
+        <a class="footer-logo" href="homepage.html">
+          <img alt="rental screening logo" src="pictures/lightning-bolt-light-blue.png">
+        </a>
+      </div>
+      <div id="footer-nav-li-container">
+        <ul class="footer-nav-li">
+          <li><a href="credit-checks.html">Credit Checks</a></li>
+          <li><a href="background-checks.html">Background Checks</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="help.html">Help</a></li>
+          <li><a href="renter.html">Renter</a></li>
+          <li><a href="landlord.html">Landlord</a></li>
+        </ul>
+      </div>
+      <div id="social-menu-container">
+        <div class="social-menu">
+          <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+          <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+          <a class="google" href="#"><i class="fa fa-google"></i></a>
+          <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+          <a class="youtube" href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Get Started Modal -->
+
+<div id="get-started-modal" class="modal">
+  <span onclick="document.getElementById('get-started-modal').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="https://icon-library.net/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg" alt="Avatar" class="avatar">
+    </div>
+    <div class="login-container">
+      <label for="username"><b>Username</b></label><br>
+      <input type="text" placeholder="Enter Username"
+      name="username" required><br>
+      <label for="password"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password"
+      name="password" required><br>
+      <button class="loginbutton2" type="submit">Create Account</button>
+      <label><br>
+        <input type="checkbox" checked="checked"
+        name="remember"> Remember me
+      </label>
+    </div>
+    <div class="container2" style="background-color: #f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbutton">Cancel</button>
+      <span class="password">Need to <a href="#">Log in</a> instead?</span>
+    </div>
+  </form>
+</div>
+
+<!-- Login button -->
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="https://icon-library.net/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg" alt="Avatar" class="avatar">
+    </div>
+    <div class="login-container">
+      <label for="username"><b>Username</b></label><br>
+      <input type="text" placeholder="Enter Username"
+      name="username" required><br>
+      <label for="password"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password"
+      name="password" required><br>
+      <button class="loginbutton2" type="submit">Login</button>
+      <label><br>
+        <input type="checkbox" checked="checked"
+        name="remember"> Remember me
+      </label>
+    </div>
+    <div class="container2" style="background-color: #f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbutton">Cancel</button>
+      <span class="password">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script src="homepagejavascript.js"></script>
+
+</body>
+</html>

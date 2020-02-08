@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rental Screening</title>
+    <meta name="viewport" content="width=device-width", initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="homepagestyles.css">
+    <link rel="stylesheet" type="text/css" href="pricingstyles.css">
+    <link rel="stylesheet" type="text/css" href="renter-landlord-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+
+<!-- Navigation -->
+
+<div class="topnav" id="topnav-id">
+  <a class="logo" href="homepage.html">
+    <img alt="rental  screening logo" src="pictures/lightning-bolt-light-blue.png">
+  </a>
+  <div class="middle-topnav" id="middle-topnav">
+    <a id="nav-link1" href="credit-checks.html">Credit Checks</a>
+    <a id="nav-link2" href="background-checks.html">Background Checks</a>
+    <a class="nav-link" href="pricing.html">Pricing</a>
+    <a class="nav-link" href="help.html">Help</a>
+  </div>
+  <div class="two-nav-buttons">
+    <button class="get-started-button" onclick="document.getElementById('get-started-modal').style.display='block'">Get Started</button>
+    <button class="loginbutton" onclick="document.getElementById('id01').style.display='block'">Login</button>
+  </div>
+  <a href="javascript:void(0);" class="hamburger-icon" onclick="openNav()">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
+
+  <!-- Overlay -->
+
+  <div id="overlay-id" class="overlay">
+  <a href="javascript:void(0)" class="mobile-close" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="credit-checks.html">Credit Checks</a>
+    <a href="background-checks.html">Background Checks</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="help.html">Help</a>
+    <a href="renter.html">Renter</a>
+    <a href="landlord.html">Landlord</a>
+  </div>
+  </div>
+
+<!-- Hero section -->
+
+<section class="hero-section">
+  <div id="landlord-hero-image" class="hero-image">
+    <div class="header-text">
+      <div class="hero-header-text"><h1>Screen Tenants Now</h1></div>
+      <div class="hero-paragraph-text"><p>Extensive, lightning-fast credit and background screening at your fingers.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Benefits -->
+
+<section id="renter-benefits">
+  <div id="three-benefits-container">
+    <div id="three-benefits-group">
+      <img src="pictures/lightning-bolt-light-blue.png">
+      <h3>Instant</h3>
+      <p>Immediate delivery of the applicant's reports</p>
+    </div>
+    <div id="three-benefits-group">
+      <img src="pictures/dollar-sign.png">
+      <h3>No Fees</h3>
+      <p>No membership, no fees, pay per screening</p>
+    </div>
+    <div id="three-benefits-group">
+      <img src="pictures/report-blue.png">
+      <h3>Full Reports</h3>
+      <p>Extensive credit, criminal, and eviction history</p>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing Table -->
+
+    <section class="pricing-section">
+      <div class="pricing-header-container">
+        <h2>Pricing</h2>
+      </div>
+      <table class="pricing-table">
+        <tr>
+          <th></th>
+          <th class="border-top-thicker"><h6>Complete Check</h6></th>
+          <th class="border-top"><h6>Extensive Check</h6></th>
+          <th class="border-top"><h6>Light Check</h6></th>
+        </tr>
+        <tr>
+          <th></th>
+          <th class="border-side" id="complete-check"><h3>$35</h3></th>
+          <th id="extensive-check"><h3>$30</h3></th>
+          <th id="light-check"><h3>$20</h3></th>
+        </tr>
+        <tr>
+          <td>Criminal Report</td>
+          <td class="border-side"><i class="icon fa fa-check">
+          </i></td>
+          <td><i class="icon fa fa-check">
+          </i></td>
+          <td><i class="icon fa fa-check"
+          </i></td>
+        </tr>
+        <tr>
+          <td>Credit Score</td>
+          <td class="border-side"><i class="icon fa fa-check">
+          </i></td>
+          <td><i class="icon fa fa-check">
+          </i></td>
+          <td><i class="icon fa fa-check"
+          </i></td>
+        </tr>
+        <tr>
+          <td>Credit Report</td>
+          <td class="border-side"><i class="icon fa fa-check">
+          </i></td>
+          <td><i class="icon fa fa-check">
+          </i></td>
+          <td><i class="icon fa fa-check"
+          </i></td>
+        </tr>
+        <tr>
+          <td>Eviction Report</td>
+          <td class="border-side"><i class="icon fa fa-check">
+          </i></td>
+          <td><i class="icon fa fa-check">
+          </i></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Income Estimate</td>
+          <td class="border-side" id="border-bottom"><i class="icon fa fa-check">
+          </i></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer clearfix">
+      <div id="footer-border">
+        <div id="footer-logo-container">
+          <a class="footer-logo" href="homepage.html">
+            <img alt="rental screening logo" src="pictures/lightning-bolt-light-blue.png">
+          </a>
+        </div>
+        <div id="footer-nav-li-container">
+          <ul class="footer-nav-li">
+            <li><a href="credit-checks.html">Credit Checks</a></li>
+            <li><a href="background-checks.html">Background Checks</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="renter.html">Renter</a></li>
+            <li><a href="landlord.html">Landlord</a></li>
+          </ul>
+        </div>
+        <div id="social-menu-container">
+          <div class="social-menu">
+            <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+            <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+            <a class="google" href="#"><i class="fa fa-google"></i></a>
+            <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+            <a class="youtube" href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <!-- Login button -->
+
+  <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="https://icon-library.net/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="login-container">
+      <label for="username"><b>Username</b></label><br>
+      <input type="text" placeholder="Enter Username"
+      name="username" required><br>
+
+      <label for="password"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password"
+      name="password" required><br>
+
+      <button class="loginbutton2" type="submit">Login</button>
+      <label><br>
+        <input type="checkbox" checked="checked"
+        name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container2" style="background-color: #f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbutton">Cancel</button>
+      <span class="password">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
+  <script src="homepagejavascript.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pricing Options | Rental Screening</title>
+    <meta name="viewport" content="width=device-width", initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="homepagestyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+
+<!-- Navigation -->
+
+<div class="topnav">
+  <a href="homepage.html">
+    <img class="logo" alt="rental screening logo" src="https://image.freepik.com/free-icon/dwelling-house_318-1861.jpg">
+  </a>
+    <div class="middle-topnav">
+      <a href="credit-checks.html">Credit Checks</a>
+      <a href="background-checks.html">Background Checks</a>
+      <a class="highlight" href="pricing.html">Pricing</a>
+      <a href="help.html">Help</a>
+    </div>
+  <button class="loginbutton" onclick="document.getElementById('id01').style.display='block'">Login</button>
+</div>
+
+<!-- Hero section -->
+
+<section class="hero-section">
+  <div id="pricing-hero-image" class="hero-image">
+    <div class="header-text">
+      <div class="hero-header-text"><h1>Simple, Affordable, Transparent</h1></div>
+      <div class="hero-paragraph-text"><p>Straightforward pricing for extensive reports.</p></div>
+    </div>
+  </div>
+</section>
+
+  <section class="pricing-section">
+    <div class="pricing-bundles">
+      <div class="35-bundle">
+        <h2>Pricing</h2>
+        <ul class="35-bundle-list">
+          <li class="best-value">Best Value</li>
+          <li class="bundle-header"
+            <h6>Complete Background</h6>
+            <h3>$35</h3>
+          </li>
+          <li class="price-row">
+            <i class="icon fa fa-check">
+            </i>
+            <h5>Identity Verification</h5>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+    <footer class="footer clearfix">
+          <a class="footer-logo" href="homepage.html">
+            <img id="footer-logo" alt="rental screening logo" src="https://image.freepik.com/free-icon/dwelling-house_318-1861.jpg">
+          </a>
+          <ul class="footer-nav-li">
+            <li><a href="">Credit Checks</a></li>
+            <li><a href="">Background Checks</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Help</a></li>
+          </ul>
+        <div class="social-menu">
+            <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+            <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+            <a class="google" href="#"><i class="fa fa-google"></i></a>
+            <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+            <a class="youtube" href="#"><i class="fa fa-youtube"></i></a>
+        </div>
+    </footer>
+
+
+  <!-- Login button -->
+
+  <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="https://icon-library.net/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="username"><b>Username</b></label><br>
+      <input type="text" placeholder="Enter Username"
+      name="username" required><br>
+
+      <label for="password"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password"
+      name="password" required><br>
+
+      <button class="loginbutton2" type="submit">Login</button>
+      <label><br>
+        <input type="checkbox" checked="checked"
+        name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container2" style="background-color: #f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbutton">Cancel</button>
+      <span class="password">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
+  <script src="homepagejavascript.js"></script>
+
+</body>
+</html>

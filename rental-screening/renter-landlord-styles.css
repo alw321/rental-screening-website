@@ -1,0 +1,24 @@
+* {box-sizing: border-box}
+
+#renter-benefits {
+  padding: 100px 0px;
+}
+
+#three-benefits-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+#three-benefits-group {
+  display: inline-block;
+  flex-flow: column wrap;
+  flex-basis: 300px;
+  padding: 25px 0px;
+  text-align: center;
+}
+
+#three-benefits-group img {
+  width: 60px;
+  margin: auto;
+}

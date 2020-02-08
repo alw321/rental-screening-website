@@ -1,0 +1,22 @@
+* {box-sizing: border-box}
+
+#renter-benefits {
+  display: block;
+  margin: 100px 0px;
+}
+
+#renter-benefits-container {
+  display: block;
+  width: 100%;
+  text-align: center;
+
+}
+
+#three-benefits {
+  display: inline-block;
+  width: 30%
+}
+
+#three-benefits img {
+  width: 60px;
+}
